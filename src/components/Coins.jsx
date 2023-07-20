@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Coin = () => {
+const Coins = ({coins}) => {
   return (
     <div>Coin</div>
   )
 }
 
-export default Coin
+export default Coins
