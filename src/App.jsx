@@ -1,5 +1,6 @@
 import { useState , useEffect} from "react"
 import axios from 'axios'
+import Coins from "./components/Coins"
 
 function App() {
   
@@ -12,7 +13,7 @@ useEffect(()=>{
 },[])
   return (
     <>
-    
+    <Coins coins={coins}/>
     </>
   )
 }
