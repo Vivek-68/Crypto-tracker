@@ -8,7 +8,9 @@
     background-color:$cobalt;
     box-shadow: 0px 0px 12px #18191b;
     border-radius: 8px;
+    margin-bottom: 2rem;
 }
+
 
 .rank {
     margin: .5 0;
@@ -103,4 +105,13 @@ th {
 }
 h1,h2,h3,h4,p{
     color: $yellowcolor;
+}
+@media screen and (max-width:500px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    .coin-price h1{
+        font-size: 1.25rem;
+    }
+    
 }
