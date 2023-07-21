@@ -1,0 +1,56 @@
+@import '../Variables/Variables.scss';
+.container{
+    max-width: 1140px;
+    margin: auto
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $cobalt;
+    box-shadow: 0 0 12px $cobalt;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+
+}
+a{
+    text-decoration: none;
+    color: $yellowcolor;
+}
+.coin-name{
+    margin-left: -4rem;
+}
+.coin-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $cobalt;
+    box-shadow: 0 0 12px $cobalt;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+ 
+}
+.coin-row:hover{
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+img{
+    height: 40px;
+    margin-right:0.5rem;
+    width: auto;
+}
+.img-symbol{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:720px){
+    .hide-mobile{
+        display: none;
+    }
+    
+}
