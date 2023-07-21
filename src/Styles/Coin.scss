@@ -1,7 +1,13 @@
 @import '../Variables/Variables.scss';
 .container{
-    max-width: 1140px;
-    margin: auto
+    max-width: 75rem;
+    margin: auto;
+    padding-top: .2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2px solid $yellowcolor;
+    border-radius: 10px;
+    margin-bottom: 3rem;
 }
 .heading{
     display: flex;
